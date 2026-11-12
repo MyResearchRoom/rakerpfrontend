@@ -1,0 +1,111 @@
+export const complianceData = [
+  // Company 1
+  {
+    id: 1,
+    companyId: 1,
+    documentType: "PAN",
+    fileName: "PAN_TechSolutions.pdf",
+    issueDate: "2020-01-15",
+    expiryDate: null,
+    uploadedDate: "2024-01-15",
+    status: "valid",
+  },
+  {
+    id: 2,
+    companyId: 1,
+    documentType: "GST Certificate",
+    fileName: "GST_TechSolutions.pdf",
+    issueDate: "2023-01-01",
+    expiryDate: "2026-12-31",
+    uploadedDate: "2024-01-15",
+    status: "valid",
+  },
+
+  // Company 2
+  {
+    id: 3,
+    companyId: 2,
+    documentType: "PAN",
+    fileName: "PAN_GlobalExports.pdf",
+    issueDate: "2019-05-20",
+    expiryDate: null,
+    uploadedDate: "2024-02-10",
+    status: "valid",
+  },
+  {
+    id: 4,
+    companyId: 2,
+    documentType: "GST Certificate",
+    fileName: "GST_GlobalExports.pdf",
+    issueDate: "2022-04-01",
+    expiryDate: "2025-03-31",
+    uploadedDate: "2024-02-10",
+    status: "valid",
+  },
+
+  // Company 3
+  {
+    id: 5,
+    companyId: 3,
+    documentType: "PAN",
+    fileName: "PAN_RetailMart.pdf",
+    issueDate: "2018-08-12",
+    expiryDate: null,
+    uploadedDate: "2024-01-20",
+    status: "valid",
+  },
+  {
+    id: 6,
+    companyId: 3,
+    documentType: "GST Certificate",
+    fileName: "GST_RetailMart.pdf",
+    issueDate: "2021-07-01",
+    expiryDate: "2024-06-30",
+    uploadedDate: "2024-01-20",
+    status: "expiring",
+  },
+
+  // Company 4
+  {
+    id: 7,
+    companyId: 4,
+    documentType: "PAN",
+    fileName: "PAN_MachineryWorks.pdf",
+    issueDate: "2017-03-10",
+    expiryDate: null,
+    uploadedDate: "2024-03-01",
+    status: "valid",
+  },
+  {
+    id: 8,
+    companyId: 4,
+    documentType: "GST Certificate",
+    fileName: "GST_MachineryWorks.pdf",
+    issueDate: "2020-06-15",
+    expiryDate: "2023-06-14",
+    uploadedDate: "2024-03-01",
+    status: "expired",
+  },
+
+  // Company 5
+  {
+    id: 9,
+    companyId: 5,
+    documentType: "PAN",
+    fileName: "PAN_TextileIndustries.pdf",
+    issueDate: "2021-02-18",
+    expiryDate: null,
+    uploadedDate: "2024-02-25",
+    status: "valid",
+  },
+  {
+    id: 10,
+    companyId: 5,
+    documentType: "GST Certificate",
+    fileName: "GST_TextileIndustries.pdf",
+    issueDate: "2023-03-01",
+    expiryDate: "2026-02-28",
+    uploadedDate: "2024-02-25",
+    status: "valid",
+  },
+];
